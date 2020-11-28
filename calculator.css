@@ -1,0 +1,84 @@
+* {
+    font-family: Roboto;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: justify;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 5px 2.5px 5px 2.5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    margin: 5px;
+}
+
+.theCalculator{
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: stretch;
+    border: 1px solid rgb(212, 202, 202);
+    margin: 5px;
+}
+
+.inputString{
+    text-align: right;
+}
+
+input:focus{
+    border-color: rgb(13, 13, 238);
+}
+
+.operations{
+    justify-content: space-evenly;
+}
+
+.operation{
+    background-color:rgb(199, 182, 248);
+    line-height: 2rem;
+    width:3rem;
+    text-align: center;
+}
+/* .nums_and_result{
+    align-items: stretch;
+} */
+
+.button{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+button.numbers{
+    background-color: rgb(223, 220, 241);
+    line-height: 2rem;
+    width:2.9rem;
+    text-align: center;
+}
+
+button.delete{
+    background-color: rgb(223, 220, 241);
+    line-height: 2rem;
+    width:2.9rem;
+    text-align: center;
+}
+
+button.operations.operation{
+    background-color: rgb(35, 35, 228);
+}
+
+button.equal{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+    width:2.8rem;
+    text-align: center;
+}
